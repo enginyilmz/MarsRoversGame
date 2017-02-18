@@ -14,6 +14,7 @@ The	first	line	gives	the	rover's	position,	and	the	second	line	is	a	series	of	in
 explore	the	plateau.	The	position	is	made	up	of	two	integers	and	a	letter	separated	by	spaces,	corresponding	to	
 the	x	and	y	coordinates	and	the	rover's	orientation.	Each	rover	will	be	finished	sequentially,	
 which	means	that	the	second	rover	won't	start	to	move	until	the	first	one	has	finished	moving.	
+
 Code	:	
 var	marsRover	=	new	MarsRover(5,5);	
 marsRover.addRover(1,2,'N');	
