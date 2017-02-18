@@ -1,4 +1,4 @@
-# MarsRoversGame
+# Mars Rovers Game
 A	squad	of	robotic	rovers	are	to	be	landed	by	NASA	on	a	plateau	on	Mars.	This	plateau,	
 which	is	curiously	rectangular,	must	be	navigated	by	the	rovers	so	that	their	on-board	cameras	can	get	a	complete	view	of
 the	surrounding	terrain	to	send	back	to	Earth.	A	rover's	position	and	location	is	represented	by	a	combination	of	x	and	y	
@@ -21,6 +21,7 @@ marsRover.sendCommand('LMLMLMLMM');
 marsRover.addRover(3,3,'E');	
 marsRover.sendCommand('MMRMMRMRRM');	
 marsRover.getFinalPositions()	
-returns	a	list	of	two	strings	
+returns	a	list	of	two	strings
+
 1	3	N	
 5	1	E	
